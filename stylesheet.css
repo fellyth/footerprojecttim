@@ -1,0 +1,23 @@
+li {
+ list-style: none;
+}
+body {
+ font-family: sans-serif;
+}
+.footer {
+	background-color: #00cec9;
+	color: #fff;
+	height: 125px;
+	padding: 40px;
+}
+.footer-logo {
+	float: left;
+	font-size: 40px;
+}
+.footer-list {
+	float: right;
+}
+.footer-list li {
+	padding-bottom: 20px;
+	cursor: pointer;
+}
