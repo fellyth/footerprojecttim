@@ -4,20 +4,26 @@ li {
 body {
  font-family: sans-serif;
 }
-.footer {
+footer {
 	background-color: #00cec9;
 	color: #fff;
 	height: 125px;
 	padding: 40px;
+	overflow: hidden;
 }
-.footer-logo {
-	float: left;
-	font-size: 40px;
+.col {
+	width: 32%;
+	display: inline-block;
+	padding: 1% 0;
 }
-.footer-list {
-	float: right;
+.col h2 {
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 0 10px;
 }
-.footer-list li {
-	padding-bottom: 20px;
-	cursor: pointer;
+.col li {
+	margin: 0px;
+	padding: 10px;
 }
+
